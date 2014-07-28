@@ -19,6 +19,16 @@
 		FA676E041986086900CCDDDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676DEC1986086900CCDDDA /* UIKit.framework */; };
 		FA676E0C1986086900CCDDDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA676E0A1986086900CCDDDA /* InfoPlist.strings */; };
 		FA676E0E1986086900CCDDDA /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676E0D1986086900CCDDDA /* HypnoNerdTests.m */; };
+		FA676E191986087C00CCDDDA /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676E181986087C00CCDDDA /* BNRHypnosisView.m */; };
+		FA676E1C198608C500CCDDDA /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676E1B198608C500CCDDDA /* BNRHypnosisViewController.m */; };
+		FA676E1F19860A7C00CCDDDA /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676E1E19860A7C00CCDDDA /* BNRReminderViewController.m */; };
+		FA676E2119860D0500CCDDDA /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA676E2019860D0500CCDDDA /* BNRReminderViewController.xib */; };
+		FA676E26198612D500CCDDDA /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = FA676E22198612D500CCDDDA /* Hypno.png */; };
+		FA676E27198612D500CCDDDA /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA676E23198612D500CCDDDA /* Hypno@2x.png */; };
+		FA676E28198612D500CCDDDA /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = FA676E24198612D500CCDDDA /* Time.png */; };
+		FA676E29198612D500CCDDDA /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA676E25198612D500CCDDDA /* Time@2x.png */; };
+		FA676E2D198615E200CCDDDA /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676E2B198615E200CCDDDA /* BNRQuizViewController.m */; };
+		FA676E2E198615E200CCDDDA /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA676E2C198615E200CCDDDA /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,20 @@
 		FA676E091986086900CCDDDA /* HypnoNerdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnoNerdTests-Info.plist"; sourceTree = "<group>"; };
 		FA676E0B1986086900CCDDDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA676E0D1986086900CCDDDA /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
+		FA676E171986087C00CCDDDA /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		FA676E181986087C00CCDDDA /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		FA676E1A198608C500CCDDDA /* BNRHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRHypnosisViewController.h; path = ../BNRHypnosisViewController.h; sourceTree = "<group>"; };
+		FA676E1B198608C500CCDDDA /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRHypnosisViewController.m; path = ../BNRHypnosisViewController.m; sourceTree = "<group>"; };
+		FA676E1D19860A7C00CCDDDA /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		FA676E1E19860A7C00CCDDDA /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		FA676E2019860D0500CCDDDA /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
+		FA676E22198612D500CCDDDA /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		FA676E23198612D500CCDDDA /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
+		FA676E24198612D500CCDDDA /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		FA676E25198612D500CCDDDA /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
+		FA676E2A198615E200CCDDDA /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		FA676E2B198615E200CCDDDA /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		FA676E2C198615E200CCDDDA /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +131,22 @@
 		FA676DEE1986086900CCDDDA /* HypnoNerd */ = {
 			isa = PBXGroup;
 			children = (
+				FA676E2A198615E200CCDDDA /* BNRQuizViewController.h */,
+				FA676E2B198615E200CCDDDA /* BNRQuizViewController.m */,
+				FA676E2C198615E200CCDDDA /* BNRQuizViewController.xib */,
+				FA676E22198612D500CCDDDA /* Hypno.png */,
+				FA676E23198612D500CCDDDA /* Hypno@2x.png */,
+				FA676E24198612D500CCDDDA /* Time.png */,
+				FA676E25198612D500CCDDDA /* Time@2x.png */,
+				FA676E1A198608C500CCDDDA /* BNRHypnosisViewController.h */,
+				FA676E1B198608C500CCDDDA /* BNRHypnosisViewController.m */,
+				FA676E171986087C00CCDDDA /* BNRHypnosisView.h */,
+				FA676E181986087C00CCDDDA /* BNRHypnosisView.m */,
 				FA676DF71986086900CCDDDA /* BNRAppDelegate.h */,
 				FA676DF81986086900CCDDDA /* BNRAppDelegate.m */,
+				FA676E1D19860A7C00CCDDDA /* BNRReminderViewController.h */,
+				FA676E1E19860A7C00CCDDDA /* BNRReminderViewController.m */,
+				FA676E2019860D0500CCDDDA /* BNRReminderViewController.xib */,
 				FA676DFA1986086900CCDDDA /* Images.xcassets */,
 				FA676DEF1986086900CCDDDA /* Supporting Files */,
 			);
@@ -220,7 +258,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA676E29198612D500CCDDDA /* Time@2x.png in Resources */,
+				FA676E28198612D500CCDDDA /* Time.png in Resources */,
+				FA676E2119860D0500CCDDDA /* BNRReminderViewController.xib in Resources */,
 				FA676DF31986086900CCDDDA /* InfoPlist.strings in Resources */,
+				FA676E2E198615E200CCDDDA /* BNRQuizViewController.xib in Resources */,
+				FA676E26198612D500CCDDDA /* Hypno.png in Resources */,
+				FA676E27198612D500CCDDDA /* Hypno@2x.png in Resources */,
 				FA676DFB1986086900CCDDDA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA676E1C198608C500CCDDDA /* BNRHypnosisViewController.m in Sources */,
 				FA676DF51986086900CCDDDA /* main.m in Sources */,
+				FA676E2D198615E200CCDDDA /* BNRQuizViewController.m in Sources */,
 				FA676DF91986086900CCDDDA /* BNRAppDelegate.m in Sources */,
+				FA676E1F19860A7C00CCDDDA /* BNRReminderViewController.m in Sources */,
+				FA676E191986087C00CCDDDA /* BNRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
