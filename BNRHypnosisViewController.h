@@ -10,4 +10,7 @@
 
 @interface BNRHypnosisViewController : UIViewController
 
+@property (nonatomic,weak) IBOutlet UISegmentedControl *colorControl;
+
+- (IBAction)selectColor:(id)sender;
 @end

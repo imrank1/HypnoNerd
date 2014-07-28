@@ -11,13 +11,6 @@
 
 @implementation BNRHypnosisViewController
 
-- (void)loadView {
-    CGRect frame = [UIScreen mainScreen].bounds;
-    BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc] initWithFrame:frame];
-    
-    self.view = backgroundView;
-}
-
 - (instancetype) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if(self) {
@@ -26,5 +19,28 @@
         self.tabBarItem.image = image;
     }
     return self;
+}
+
+- (IBAction)selectColor:(id)sender {
+    UISegmentedControl *colorSelecter = (UISegmentedControl *)sender;
+    int color = [colorSelecter selectedSegmentIndex];
+    [self setCircleColors:color];
+}
+
+- (void) setCircleColors:(int) indexSelected {
+    BNRHypnosisView *circlesView = (BNRHypnosisView *) self.view;
+    switch (indexSelected) {
+        case 0:
+            circlesView.circleColor = [UIColor redColor];
+            break;
+        case 1:
+            circlesView.circleColor = [UIColor greenColor];
+            break;
+        case 2:
+            circlesView.circleColor = [UIColor blueColor];
+            break;
+        default:
+            break;
+    }
 }
 @end

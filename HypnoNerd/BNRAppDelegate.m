@@ -17,9 +17,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    BNRHypnosisViewController *hypnosisViewController = [[BNRHypnosisViewController alloc] init];
-    
     NSBundle *appBundle = [NSBundle mainBundle];
+
+    BNRHypnosisViewController *hypnosisViewController = [[BNRHypnosisViewController alloc] initWithNibName:@"BNRHypnosisViewController" bundle:appBundle];
+    
     BNRReminderViewController *reminderViewController = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
     
     BNRQuizViewController *quizViewController = [[BNRQuizViewController alloc] initWithNibName:@"BNRQuizViewController" bundle:appBundle];

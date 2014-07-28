@@ -29,6 +29,7 @@
 		FA676E29198612D500CCDDDA /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA676E25198612D500CCDDDA /* Time@2x.png */; };
 		FA676E2D198615E200CCDDDA /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676E2B198615E200CCDDDA /* BNRQuizViewController.m */; };
 		FA676E2E198615E200CCDDDA /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA676E2C198615E200CCDDDA /* BNRQuizViewController.xib */; };
+		FA676E3219862A2500CCDDDA /* BNRHypnosisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA676E3119862A2500CCDDDA /* BNRHypnosisViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		FA676E2A198615E200CCDDDA /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
 		FA676E2B198615E200CCDDDA /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
 		FA676E2C198615E200CCDDDA /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
+		FA676E3119862A2500CCDDDA /* BNRHypnosisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BNRHypnosisViewController.xib; path = ../BNRHypnosisViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				FA676DF81986086900CCDDDA /* BNRAppDelegate.m */,
 				FA676E1D19860A7C00CCDDDA /* BNRReminderViewController.h */,
 				FA676E1E19860A7C00CCDDDA /* BNRReminderViewController.m */,
+				FA676E3119862A2500CCDDDA /* BNRHypnosisViewController.xib */,
 				FA676E2019860D0500CCDDDA /* BNRReminderViewController.xib */,
 				FA676DFA1986086900CCDDDA /* Images.xcassets */,
 				FA676DEF1986086900CCDDDA /* Supporting Files */,
@@ -265,6 +268,7 @@
 				FA676E2E198615E200CCDDDA /* BNRQuizViewController.xib in Resources */,
 				FA676E26198612D500CCDDDA /* Hypno.png in Resources */,
 				FA676E27198612D500CCDDDA /* Hypno@2x.png in Resources */,
+				FA676E3219862A2500CCDDDA /* BNRHypnosisViewController.xib in Resources */,
 				FA676DFB1986086900CCDDDA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
